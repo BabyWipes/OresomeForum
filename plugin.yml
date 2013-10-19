@@ -1,0 +1,19 @@
+name: OresomeForum
+main: com.oresomecraft.forums.OresomeForum
+version: 1.0
+commands:
+   register:
+      description: Register the user on the forums
+      usage: /<command> <email>
+      permission: oresomeforum.register
+      permission-message: You don't have <permission>
+   setforumdonator:
+      description: Sets a user as a donator on the forums
+      usage: /<command> <user>
+      permission: oresomeforum.setdonator
+      permission-message: You don't have permission!
+   forums:
+      description: Admin commands
+      usage: /<command> <params>
+      permission: oresomeforum.admin
+      permission-message: You don't have permission!
